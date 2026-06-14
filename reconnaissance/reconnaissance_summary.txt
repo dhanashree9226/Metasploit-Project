@@ -1,0 +1,21 @@
+Reconnaissance Summary
+
+Target:
+Metasploitable 2
+
+IP Address:
+192.168.163.129
+
+Key Services Identified:
+
+- FTP
+- SSH
+- Telnet
+- HTTP
+- SMB
+- MySQL
+- PostgreSQL
+- VNC
+
+Potential Attack Surface:
+Multiple network services are exposed, including remote access, web, database, and file-sharing services. These services may contain known vulnerabilities and misconfigurations suitable for further analysis in a lab environment.
