@@ -1,0 +1,20 @@
+Target Information
+
+Target Name: Metasploitable 2
+
+Environment:
+VMware Virtual Machine
+
+Operating System:
+Linux
+
+Purpose:
+Intentionally vulnerable machine used for cybersecurity training.
+
+Tools Planned:
+- Shodan
+- Nmap
+- Metasploit Framework
+
+Reason for Selection:
+Metasploitable 2 is designed for penetration testing practice and contains known vulnerabilities in a safe lab environment.

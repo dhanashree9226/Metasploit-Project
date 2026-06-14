@@ -1,0 +1,3 @@
+Target Justification
+
+Metasploitable 2 was selected because it is an intentionally vulnerable virtual machine created for security training. It provides a legal and controlled environment for reconnaissance, vulnerability assessment, and exploitation practice.

@@ -1,0 +1,11 @@
+Shodan Research
+
+Date: 12 June 2026
+
+Search Query: Apache 2.2
+
+Purpose:
+To research vulnerable services and understand how Shodan can be used for target discovery.
+
+Observation:
+Shodan returned systems running Apache 2.2, which is an older web server version that may contain known vulnerabilities.
