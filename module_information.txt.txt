@@ -1,0 +1,55 @@
+       Name: VSFTPD v2.3.4 Backdoor Command Execution
+     Module: exploit/unix/ftp/vsftpd_234_backdoor
+   Platform: Unix
+       Arch: cmd
+ Privileged: Yes
+    License: Metasploit Framework License (BSD)
+       Rank: Excellent
+  Disclosed: 2011-07-03
+
+Provided by:
+  hdm <x@hdm.io>
+  MC <mc@metasploit.com>
+
+Module side effects:
+ unknown-side-effects
+
+Module stability:
+ unknown-stability
+
+Module reliability:
+ unknown-reliability
+
+Available targets:
+      Id  Name
+      --  ----
+  =>  0   Automatic
+
+Check supported:
+  No
+
+Basic options:
+  Name    Current Setting  Required  Description
+  ----    ---------------  --------  -----------
+  RHOSTS  192.168.163.129  yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
+  RPORT   21               yes       The target port (TCP)
+
+Payload information:
+  Space: 2000
+  Avoid: 0 characters
+
+Description:
+  This module exploits a malicious backdoor that was added to the       VSFTPD download
+  archive. This backdoor was introduced into the vsftpd-2.3.4.tar.gz archive between
+  June 30th 2011 and July 1st 2011 according to the most recent information
+  available. This backdoor was removed on July 3rd 2011.
+
+References:
+  https://nvd.nist.gov/vuln/detail/CVE-2011-2523
+  OSVDB (73573)
+  http://pastebin.com/AetT9sS5
+  http://scarybeastsecurity.blogspot.com/2011/07/alert-vsftpd-download-backdoored.html
+
+
+View the full module info with the info -d command.
+
