@@ -1,0 +1,9 @@
+Project Conclusion
+
+This project demonstrated the process of reconnaissance, service enumeration, vulnerability identification, and security assessment using Kali Linux, Nmap, Shodan, and Metasploit Framework in a controlled lab environment.
+
+The target system was identified as Metasploitable 2, an intentionally vulnerable virtual machine used for cybersecurity training. Multiple network services were discovered, including FTP, SSH, HTTP, SMB, MySQL, and PostgreSQL.
+
+Service version detection revealed several outdated services that may contain publicly documented vulnerabilities. Metasploit Framework was used to identify a relevant module associated with VSFTPD 2.3.4 and to analyze its characteristics.
+
+The project provided practical experience in information gathering, vulnerability assessment, and security documentation while following ethical cybersecurity practices in a controlled environment.
